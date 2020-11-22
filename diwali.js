@@ -1,4 +1,4 @@
-//write code here ok
+//write code here ok ok
 function replace(){
 
 let Myform1 = document.getElementById("form1");
