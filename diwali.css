@@ -1,3 +1,4 @@
+/* applies to entire pagr */
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -20,38 +21,47 @@
         ". . footer footer . .";
 
 }
+
 */
 
-.grid_container{
+/* contains the entire landing page and its layout */
+.block_container{
     display: block;
-    margin: auto;
-    width: 50%;
+    margin: auto; /*to center the page */
+    width: 50%; /*to center the page */
+    
 /*    height: 100vh;*/
     background-color: #25095e;
     background-image: linear-gradient(180deg, #25095e 0%, #9c1175 50%, #e4103f 100%);
+    /* shadow around box */
     -webkit-box-shadow: 7px 7px 22px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    7px 7px 22px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         7px 7px 22px 0px rgba(50, 50, 50, 0.75);
 }
 
+/* footer */
 .footer{
     background-color: white;
     padding: 15px 10px 30px 10px;
 }
 
+/* image container which contains images for footer */
 .image-container{
     display: flex; 
 }
 
+/* to include 3 images in footer */
 .column{
     flex: 33.33%;
 }
 
+/* main div which holds images for page */
 .main{
     position: relative;
     height: 740px;
 }
 
+/* image 1*/
 .image1{
     position: absolute;
     top: 1%;
@@ -59,18 +69,21 @@
     
 }
 
+/* image 2*/
 .image2{
     position: absolute;
     top: 24%;
     right: 29%;
 }
 
+/* image 3*/
 .image3{
     position: absolute;
     top: 30%;
     left: 13%;
 }
 
+/* image 5*/
 .image5{
    position: absolute;
     display: flex;
@@ -79,6 +92,7 @@
     right: -2%;
 }
 
+/* image 4*/
 .image4 img{
     position: absolute;
     top: 0%;
@@ -90,11 +104,13 @@
 /*    margin-top: -50px;*/
 }
 
+/* added keyframes for moving lamp up and down */
 @keyframes updown {
     from{margin-top: -40px; }
     to  {margin-bottom: 40px; }
 }
 
+/* image 6*/
 .image6{
     position: absolute;
     display: flex;
@@ -103,6 +119,7 @@
     object-fit: contain;
 }
 
+/* styling for h2 */
 h2{
     text-transform: uppercase;
     color: white;
@@ -115,6 +132,7 @@ h2{
     font-size: 20px;
 }
 
+/* styling for input type text and select */
 input[type=text] ,select{
     width: 96%;
     border: 5px solid white;
@@ -124,6 +142,7 @@ input[type=text] ,select{
     border-radius: 7px;
 }
 
+/* changing the color of placeholder (input type text)*/
 input[type=text]::placeholder{
     color: white;
     font-weight: 500;
@@ -135,6 +154,7 @@ option::placeholder{
 }
 */
 
+/* styling for input type button */
 input[type=button]{
     margin-left: 38.5%;
     margin-top: 2px;
@@ -150,10 +170,12 @@ input[type=button]{
     cursor: pointer;
 }
 
+/* styling when user hover the button */
 input[type=button]:hover{
     box-shadow: 0px 1px 30px 1px rgba(50, 50, 50, 0.30);
 }
 
+/* styling for p element */
 p{
     color: white;
     text-align: center;
@@ -164,6 +186,7 @@ p{
     font-size: 20px;
 }
 
+/* styling ul element */
 ul{
     margin-left: 28px;
     margin-top: 10px;
@@ -172,6 +195,7 @@ ul{
     font-size: 18px;
 }
 
+/* styling replaced form which contains thanking message */
 #Rform{
     text-align: center;
     font-size: 23px;
@@ -180,6 +204,7 @@ ul{
     display: none
 }
 
+/* styling for h3 element (when form is submitted and thanking message appears) */
 h3{
     margin-left: 20px;
     color: white;
