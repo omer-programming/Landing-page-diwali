@@ -8,51 +8,20 @@
     
 }
 
-/*
-.grid_container{
-    display: grid;
-    grid-template-columns: repeat (auto-fit , minmax(115px , 1fr));
-    background-color: #25095e;
-    background-image: linear-gradient(180deg, #25095e 0%, #9c1175 50%, #e4103f 100%);
-    grid-gap: 2px;
-    grid-template-areas: 
-        ". . main main . ."
-        ". . form form . ."
-        ". . footer footer . .";
-
+.flex_container{
+    display: flex;
+    justify-content: center;
 }
-
-*/
 
 /* contains the entire landing page and its layout */
 .block_container{
-    display: block;
-    margin: auto; /*to center the page */
-    width: 50%; /*to center the page */
-    
-/*    height: 100vh;*/
+    width: 50%;
     background-color: #25095e;
     background-image: linear-gradient(180deg, #25095e 0%, #9c1175 50%, #e4103f 100%);
     /* shadow around box */
     -webkit-box-shadow: 7px 7px 22px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    7px 7px 22px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         7px 7px 22px 0px rgba(50, 50, 50, 0.75);
-}
-
-/* footer */
-.footer{
-    background-color: white;
-    padding: 15px 10px 30px 10px;
-}
-
-/* image container which contains images for footer */
-.image-container{
-    display: flex; 
-}
-
-/* to include 3 images in footer */
-.column{
-    flex: 33.33%;
 }
 
 /* main div which holds images for page */
@@ -64,6 +33,8 @@
 /* image 1*/
 .image1{
     position: absolute;
+    display: flex;
+    justify-content: center;
     top: 1%;
     right: 32%;
     
@@ -72,13 +43,19 @@
 /* image 2*/
 .image2{
     position: absolute;
+    display: flex;
     top: 24%;
     right: 29%;
+}
+
+.image2 img{
+    width: 270px;
 }
 
 /* image 3*/
 .image3{
     position: absolute;
+    display: flex;
     top: 30%;
     left: 13%;
 }
@@ -92,15 +69,23 @@
     right: -2%;
 }
 
+.image5 img{
+    width: 30%;
+    height: 61%;
+}
+
 /* image 4*/
 .image4 img{
     position: absolute;
+    display: flex;
     top: 0%;
     left: 0%;
     animation-name: updown;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    width: 10%;
+    height: 22%;
 /*    margin-top: -50px;*/
 }
 
@@ -117,6 +102,11 @@
     top: 84%;
     left: 7%;
     object-fit: contain;
+}
+
+.image6 img{
+    width: 90%;
+    height: 90%;
 }
 
 /* styling for h2 */
@@ -209,6 +199,43 @@ h3{
     margin-left: 20px;
     color: white;
 }
+
+/* footer */
+.footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px 10px 30px 10px;
+}
+
+/* image container which contains images for footer */
+.image-container{
+    display: flex; 
+}
+
+/* to include 3 images in footer */
+.column{
+    flex: 33.33%;
+}
+
+/* media queries for different screen size */
+/*
+@media screen and (max-width: 600px){
+    .block_container{
+        width: 100%;
+    }
+    
+    li{
+        color: maroon;
+    }
+}
+*/
+
+
+
+
 
 
 
