@@ -213,29 +213,596 @@ h3{
 /* image container which contains images for footer */
 .image-container{
     display: flex; 
-}
-
-/* to include 3 images in footer */
-.column{
     flex: 33.33%;
 }
 
+/* to include 3 images in footer */
+.column1 img{
+/*    flex: 33.33%;*/
+    width: 219px;
+}
+
+.column2 img{
+/*    flex: 33.33%;*/
+    width: 219px;
+}
+
+.column3 img{
+/*    flex: 33.33%;*/
+    width: 219px;
+}
+
+/* //////////////responsive///////////// */
 /* media queries for different screen size */
-/*
-@media screen and (max-width: 600px){
-    .block_container{
-        width: 100%;
+
+@media screen and (max-width: 1280px){
+    /* candle image container */
+    .image3{
+        top: 30.5%;
+        left: 9%;
     }
     
-    li{
-        color: maroon;
+    /* footer image 1 */
+    .column1 img{
+        width: 200px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 200px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 200px;
     }
 }
-*/
+
+/* ipad pro view */
+@media screen and (max-width: 1200px){
+    /* increased the width by 80% when screen size is 600px */
+    .block_container{
+        width: 50%;
+    }
+    /* footer image 1 */
+    .column1 img{
+        width: 164px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 164px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 164px;
+    }
+    
+    /* outlet mall logo container */
+    .image1{
+        left: 32%;
+    }
+    
+    /* happy diwali image container */
+    .image2{
+        top: 27%;
+        left: 28%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 230px;
+    }
+    /* candle image container */
+    .image3{
+        top: 34.9%;
+        left: 9%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 92%;
+    }
+    
+    .image6{
+        top: 88%;
+    }
+    
+    ul{
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: 17px;
+    }
+    
+    /* styling for h2 */
+    h2{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 35%;
+    }
+    
+    /* lamp image */
+    .image5 img{
+        width: 25.5%;
+    }
+    
+    .main{
+        height: 620px;
+    }
+
+}
+
+/* layout for screen of width 998px ( laptop view ) */
+@media screen and (max-width: 998px){
+    /* increased the width by 80% when screen size is 600px */
+    .block_container{
+        width: 50%;
+    }
+    /* footer image 1 */
+    .column1 img{
+        width: 155px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 155px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 155px;
+    }
+    /* outlet mall logo container */
+    .image1{
+        left: 35%;
+    }
+    /* happy diwali image container */
+    .image2{
+        top: 24%;
+        left: 27%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 230px;
+    }
+    /* candle image container */
+    .image3{
+        top: 31.5%;
+        left: 10%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* moving lamp image */
+    .image4 img{
+        width: 12%;
+        height: 24%;
+    }
+    /* lamp image container */
+    .image5{
+        right: 0;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 25%;
+    }
+    /* shop and win gold image container */
+    .image6{
+        top: 87%;
+    }
+    /* height of the main container */
+    .main{
+        height: 600px;
+    }
+    /* styling for h2 */
+    h2{
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    /* styling for unordered list */
+    ul{
+        margin-right: 8px;
+    }
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 35%;
+    }
+    /* styling for input type text and select */
+    input[type=text] ,select{
+        width: 95%;
+    }
+}
+
+/* laptop view */
+@media screen and (max-width: 920px){
+    /* footer image 1 */
+    .column1 img{
+        width: 125px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 125px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 125px;
+    }
+    /* outlet mall logo container */
+    .image1{
+        left: 33%;
+    }
+    /* outlet mall logo container */
+    .image1 img{
+        width: 120%;
+    }
+    /* happy diwali image container */
+    .image2{
+        top: 23%;
+        left: 27%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 190px;
+    }
+    /* candle image container */
+    .image3{
+        top: 31.2%;
+        left: 10%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* moving lamp image */
+    .image4 img{
+        width: 12%;   
+        height: 24%;
+    }
+    /* lamp image container */
+    .image5{
+        right: 0;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 22%;
+    }
+    /* shop and win gold image container */
+    .image6{
+        top: 87%;
+    }
+    /* height of the main container */
+    .main{
+        height: 510px;
+    }
+    /* styling for h2 */
+    h2{
+        font-size: 16px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    /* styling for unordered list */
+    ul{
+        margin-right: 8px;
+    }
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 31%;
+    }
+    
+    /* styling for input type text and select */
+    input[type=text] ,select{
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 775px){
+    /* lamp image container */
+    .image5{
+        right: 0;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 20%;
+    }
+}
 
 
+/* layout for screen of width 768px (tablet , large phone view ) */
+@media screen and (max-width: 768px){
+    /* increased the width by 80% when screen size is 600px */
+    .block_container{
+        width: 80%;
+    }
+    /* footer image 1 */
+    .column1 img{
+        width: 190px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 190px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 190px;
+    }
+    /* outlet mall logo container */
+    .image1{
+        left: 35%;
+    }
+    /* happy diwali image container */
+    .image2{
+        top: 26%;
+        left: 30%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 250px;
+    }
+    /* candle image container */
+    .image3{
+        top: 33%;
+        left: 12%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* moving lamp image */
+    .image4 img{
+        width: 12%;   
+        height: 24%;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 27%;
+    }
+    /* shop and win gold image container */
+    .image6{
+        top: 87%;
+    }
+    /* height of the main container */
+    .main{
+        height: 650px;
+    }
+    /* styling for h2 */
+    h2{
+        font-size: 17px;
+    }
+    /* styling for unordered list */
+    ul{
+        margin-right: 8px;
+    }
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 37%;
+    }
+    
+}
 
+@media screen and (max-width: 700px){
+    /* footer image 1 */
+    .column1 img{
+        width: 173px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 173px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 173px;
+    }
+    
+    /* happy diwali image container */
+    .image2{
+        top: 24%;
+        left: 29%;
+    }
+}
 
+@media screen and (max-width: 670px){
+     /* happy diwali image container */
+    .image2{
+        top: 24%;
+        left: 28%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    /* footer image 1 */
+    .column1 img{
+        width: 155px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 155px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 155px;
+    }
+    
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 34%;
+    }
+    
+    /* happy diwali image container */
+    .image2{
+        top: 22%;
+        left: 26%;
+    }
+    
+    /* candle image container */
+    .image3{
+        top: 31.5%;
+        left: 12%;
+    }
+    
+    /* height of the main container */
+    .main{
+        height: 600px;
+    }
+    
+    /* lamp image */
+    .image5 img{
+        width: 24%;
+    }
+    
+}
+
+@media screen and (max-width: 580px){
+    /* happy diwali image container */
+    .image2{
+        top: 21%;
+        left: 27%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 220px;
+    }
+    
+    /* lamp image */
+    .image5 img{
+        width: 22%;
+    }
+    
+    /* candle image container */
+    .image3{
+        top: 29.5%;
+        left: 11.5%;
+    }
+    
+    /* height of the main container */
+    .main{
+        height: 580px;
+    }
+    
+    /* footer image 1 */
+    .column1 img{
+        width: 140px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 140px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 140px;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    /* happy diwali image container */
+    .image2{
+        top: 21%;
+        left: 25%;
+    }
+    
+    /* footer image 1 */
+    .column1 img{
+        width: 130px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 130px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    /* happy diwali image container */
+    .image2{
+        left: 23.4%;
+    }
+    
+    /* lamp image */
+    .image5 img{
+        width: 21%;
+    }
+}
+
+/* layout for screen of width 500px ( Mobile phone view ) */
+@media screen and (max-width: 500px){
+    /* increased the width by 80% when screen size is 600px */
+    .block_container{
+        width: 100%;
+        box-shadow: none;
+    }
+    /* footer image 1 */
+    .column1 img{
+        width: 155px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 155px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 155px;
+    }
+    /* outlet mall logo container */
+    .image1{
+        left: 35%;
+    }
+    /* happy diwali image container */
+    .image2{
+        top: 24%;
+        left: 27%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 230px;
+    }
+    /* candle image container */
+    .image3{
+        top: 31.5%;
+        left: 10%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* moving lamp image */
+    .image4 img{
+        width: 12%;   
+        height: 24%;
+    }
+    /* lamp image container */
+    .image5{
+        right: 0;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 25%;
+    }
+    /* shop and win gold image container */
+    .image6{
+        top: 87%;
+    }
+    /* height of the main container */
+    .main{
+        height: 600px;
+    }
+    /* styling for h2 */
+    h2{
+        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    /* styling for unordered list */
+    ul{
+        margin-right: 8px;
+    }
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 34%;
+    }
+}
 
 
 
