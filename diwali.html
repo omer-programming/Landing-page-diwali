@@ -1,17 +1,33 @@
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--x-ua-compatible meta tags allow the web author to choose what version of internet explorer the page should be rendered as and according to microsoft, when using the x-ua-compatible tag , it should be as high as possible in your document head-->
+    <meta charset="utf-8">
+    <!--meta charset utf 8 is character encoding capable of encoding all characters on the web...it is replaced ascii as the default character encoding...utf is used for something like 93% of all web traffic-->
     <title>Diwali</title>
+    <!--defines the title of the page-->
+    <meta name="description" content="For Her">
+    <meta name="viewport" content='width=device-width, initial-scale=1'>
+    <!--a meta viewport element gives the browser instructions on how to control the page's dimension and scaling...it's recommended to use this in all your html-->
     <link rel="stylesheet" href="diwali.css">
+    <!--access to style sheet -->
     <script src="diwali.js"></script>
+    <!--access to javascript -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- font 1-->
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- font 2-->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!-- font 3-->
 </head>
     
 <body>
     <div class="flex_container">
+        <!-- flex container to center the landing page -->
         <div class="block_container">
+            <!-- for setting the width , now the width is 50% . Can change to whatever you want -->
         <div class="main">
+            <!-- basically the class main is container for images -->
             <div class="image1">
                 <img src="images/main-div1.png">
             </div>
@@ -39,19 +55,21 @@
                 <br>
                 <h2>REGISTER BELOW TO DOUBLE YOUR CHANCES TO WIN EXCLUSIVE PRIZES</h2>
                 <br>
-                
+                <!-- input feild 1 --> 
                 <div class="row">
                     <div class="col100">
                         <input type="text" id="FName" name="FName" placeholder="Full Name" >
                         <h3 id="error1"></h3>
                     </div>
                 </div>
+                <!-- input feild 2 --> 
                 <div class="row">
                     <div class="col100">
                         <input type="text" id="emailid" name="emailid" placeholder="Email Address" >
                         <h3 id="error2"></h3>
                     </div>
                 </div>
+                <!-- input feild 3 --> 
                 <div class="row">
                     <div class="col100">
                         <input type="text" id="mobilenumber" name="mobilenumber" placeholder="Mobile Phone" >
@@ -59,6 +77,7 @@
                     </div>
                 </div>
                 
+                <!-- select for selecting 1 country out of several given countries--> 
                 <div class="row">
                     <div class="col100">
                          <select id="country" name="country" class="form-control">
@@ -311,22 +330,26 @@
                     </div>
                 </div>
                 
+                <!-- input type button 1 --> 
                 <div class="row">
                     <div class="col100">
                         <input type="button" id="submit1" name="submit1" value="submit" onclick="replace();">
                     </div>
                 </div>
                 
+                <!-- terms and conditions --> 
                 <p>Terms & Conditions:</p>
             
-            <ul style="list-style-type: disc">
-                <li>Post submission a code will be sent to your valid email address. Code will be valid from 6<sup>th</sup>-21<sup>th</sup> November 2020.</li>
-                <li>To obtain an entry in the new draw, a minimum purchase of AED 200 -/ from any participating FIRST FLOOR outlets at Dubai Outlet Mall must be done.</li>
-                <li>Generated Code to be shared along with shopping invoice at any customer service desk.</li>
-            </ul>
+                <!-- condition under unordered list-->
+                <ul style="list-style-type: disc">
+                    <li>Post submission a code will be sent to your valid email address. Code will be valid from 6<sup>th</sup>-21<sup>th</sup> November 2020.</li>
+                    <li>To obtain an entry in the new draw, a minimum purchase of AED 200 -/ from any participating FIRST FLOOR outlets at Dubai Outlet Mall must be done.</li>
+                    <li>Generated Code to be shared along with shopping invoice at any customer service desk.</li>
+                </ul>
                 
             </form>
-
+            
+            <!-- content to be displayed after form is being submitted -->
             <div id="Rform"> 
                 <h2 style="color: gold; font-size: 27px;">THANK YOU FOR REGISTERING!</h2>
                 <h3>Please check your mail inbox for the generated code.</h3>
@@ -339,6 +362,7 @@
 <!--        </div>-->
         
         <div class="footer">
+            <!-- container for footer images-->
             <div class="image-container">
                 <div class="column1">
                     <img src="images/footer1.png">

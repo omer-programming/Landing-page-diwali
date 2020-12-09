@@ -804,7 +804,243 @@ h3{
     }
 }
 
+/* nexus 5x , pixel 2 , pixel 2 xl and iphone 6/7/8 plus */
+@media screen and (max-width : 414px){
+     /* footer image 1 */
+    .column1 img{
+        width: 128px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 128px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 128px;
+    }
+     /* happy diwali image container */
+    .image2{
+        top: 24%;
+        left: 27%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 200px;
+    }
+    /* candle image container */
+    .image3{
+        top: 34%;
+        left: 11.5%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+}
+
+/* layout for screen of width 370px ( Mobile phone view ) */
+@media screen and (max-width: 370px){
+    /* increased the width by 80% when screen size is 600px */
+    .block_container{
+        width: 100%;
+        box-shadow: none;
+    }
+    /* footer image 1 */
+    .column1 img{
+        width: 123px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 123px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 123px;
+    }
+    /* outlet mall logo container */
+    .image1{
+        left: 35%;
+    }
+    /* happy diwali image container */
+    .image2{
+        top: 22%;
+        left: 25%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 200px;
+    }
+    /* candle image container */
+    .image3{
+        top: 32.5%;
+        left: 13%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* moving lamp image */
+    .image4 img{
+        width: 12%;   
+        height: 24%;
+    }
+    /* lamp image container */
+    .image5{
+        right: -10;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 20%;
+    }
+    /* shop and win gold image container */
+    .image6{
+        top: 87%;
+    }
+    /* height of the main container */
+    .main{
+        height: 450px;
+    }
+    /* styling for h2 */
+    h2{
+        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    /* styling for unordered list */
+    ul{
+        margin-right: 8px;
+    }
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 34%;
+    }
+}
 
 
+/* iphone 6/7/8 and X */
+@media screen and (width: 375px){
+    /* footer image 1 */
+    .column1 img{
+        width: 122px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 122px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 122px;
+    }
+     /* happy diwali image container */
+    .image2{
+        top: 23%;
+        left: 28.4%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 165px;
+    }
+    /* candle image container */
+    .image3{
+        top: 30.5%;
+        left: 9.5%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+}
+
+/* iphone 5s/e */
+@media screen and (width: 320px){
+    /* footer image 1 */
+    .column1 img{
+        width: 105px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 105px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 105px;
+    }
+     /* happy diwali image container */
+    .image2{
+        top: 20%;
+        left: 25%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 165px;
+    }
+    /* candle image container */
+    .image3{
+        top: 28.5%;
+        left: 10%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+}
+
+/* samsung galaxy fold */
+@media screen and (width: 280px){
+    /* footer image 1 */
+    .column1 img{
+        width: 90px;
+    }
+    /* footer image 2 */
+    .column2 img{
+        width: 90px;
+    }
+    /* footer image 3*/
+    .column3 img{
+        width: 90px;
+    }
+     /* happy diwali image container */
+    .image2{
+        top: 21%;
+        left: 28.1%;
+    }
+    /* happy diwali image */
+    .image2 img{
+        width: 135px;
+    }
+    /* candle image container */
+    .image3{
+        top: 29.5%;
+        left: 12.8%;
+    }
+    /* candle image */
+    .image3 img{
+        width: 90%;
+    }
+    /* height of the main container */
+    .main{
+        height: 370px;
+    }
+    
+    /* lamp image container */
+    .image5{
+        right: 0;
+    }
+    /* lamp image */
+    .image5 img{
+        width: 17.5%;
+    }
+    
+    /* styling for button when screen is of width 600px */
+    input[type=button]{
+        margin-left: 26.8%;
+        font-size: 20px;
+    }
+    
+    /* styling for input type text and select */
+    input[type=text] ,select{
+        width: 90%;
+    }
+}
 
 
